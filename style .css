@@ -1,0 +1,46 @@
+p{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+header{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 5%;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+
+}
+li{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.indivi-box{
+    width: 50%;
+}
+.main-box1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.atsu-pic,.naomi-pic,.ozan-pic,.gab-pic{
+    width: 300px;
+    margin:0 auto;
+    display: block;
+}
