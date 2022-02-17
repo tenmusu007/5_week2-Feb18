@@ -1,11 +1,29 @@
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    background: #1D1F20;
-  }
+header{
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.title{
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 5%;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+
+}
+li{
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
 
 .p {
     display: flex;
