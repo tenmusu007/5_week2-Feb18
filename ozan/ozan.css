@@ -1,0 +1,47 @@
+.MainHeader {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.MainHeader__container {
+    z-index: 10;
+    width: 110%;
+    background-color: darkgray;
+    padding: 25px;
+    margin-top: -8px;
+    margin-left: -8px;
+    position: fixed;
+}
+
+.MainHeader__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+.MainHeader__inner-left > h1{
+    letter-spacing: 1px;
+    width: 15%;
+}
+
+.MainHeader__inner-right {
+    width: 30%;
+}
+
+.MainHeader__inner-right > ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+.MainHeader__inner-right > ul > li {
+    cursor: pointer;
+    display: block;
+}
+
+.MainHeader__inner-right > nav {
+    text-decoration: none;
+}
