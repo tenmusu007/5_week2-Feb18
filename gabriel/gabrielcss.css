@@ -24,11 +24,15 @@ a{
   color: black;
 }
 
+.text-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #1D1F20;
+}
 
 .p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 400px;
     height: 200px;
     color: white;
@@ -45,9 +49,6 @@ a{
 
 
 .box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: linear-gradient(-45deg, #B2ABF2, #89043D, #2FE6DE, #1C3041, #18F2B2);
     background-size: 500% 1000%;
     animation: gradient 15s ease infinite;
