@@ -13,42 +13,130 @@
         <h1>Team 5</h1>
     </div>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="atsu/atsu.html">Atsuya Topics</a></li>
-            <li><a href="naomi/naomi.html">Naomi Topics</a></li>
-            <li><a href="ozan/ozan.html">Ozan Topics</a></li>
-            <li><a href="gabriel/gabriel.html">Gabriel Topics</a></li>
+        <ul class="ul.header">
+            <li class="li.header"><a href="index.html">Home</a></li>
+            <li class="li.header"><a href="atsu/atsu.html">Atsuya Topics</a></li>
+            <li class="li.header"><a href="naomi/naomi.html">Naomi Topics</a></li>
+            <li class="li.header"><a href="ozan/ozan.html">Ozan Topics</a></li>
+            <li class="li.header"><a href="gabriel/gabriel.html">Gabriel Topics</a></li>
         </ul>
     </nav>
 </header>
 
 <body>
     <h1> CSS Topics </h1>
-    <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a
+    <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written
+        in a
         markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and
         JavaScript.</p>
-    <hr>
+
+    <h4> In this Website, you can learn more about:</h4>
+    <div>
+        <ul class="topics.div">
+            <li class="topics.list">CSS Gradients</li>
+            <li class="topics.list">Dropdown</li>
+            <li class="topics.list">Button Transition</li>
+            <li class="topics.list">Image Hover</li>
+        </ul>
+    </div>
+
+    <br><hr>
+    <h2> CSS Gradient </h2>
+    <p>The following example shows a linear gradient that starts from the left, transitioning between the colors:</p>
     <div class="text-align">
-        <div class="p">
+        <div class="box">
             <a>
-                <p class="box">Gradient</p>
+                <p class="text-gradient">Gradient</p>
             </a>
         </div>
         <code>
-        <pre class="pre">
-        p { color: red; }
-        body { background-color: #eee; }
-        display: block;
-        font-family: monospace;
-        white-space: pre;
-        margin: 1em 0px;
-        background-color: #eee;
-        width: 20%;
+        <pre class="code-gradient">
+
+    background: linear-gradient(-45deg, #B2ABF2, #89043D,   
+    #2FE6DE, #1C3041, #18F2B2);
+    background-size: 500% 1000%;
+    animation: gradient 15s ease infinite;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 60px;
+    border-radius: 16px;
+    top: 40px;
         </pre>
     </code>
     </div>
+    <br><hr>
 
+    <div>
+        <h2> Dropdown Button </h2>
+        <p>Move the mouse over the button to open the dropdown menu.</p>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+                <a href="index.html">Home Page</a>
+                <a href="atsu/atsu.html">Atsuya Page</a>
+                <a href="naomi/naomi.html">Naomi Page</a>
+                <a href="ozan/ozan.html">Ozan Page</a>
+            </div>
+        </div>
+    </div>
+    <br><hr>
+
+    <div>
+        <h2>Simple hover effects</h2>
+        <p>Move the mouse over the buttons to see differents effects</p>
+        <button type="button" class="effect-btn effect-1">Link Hover 1</button>
+        <button type="button" class="effect-btn effect-2">Link Hover 2</button>
+        <button type="button" class="effect-btn effect-3">Link Hover 3</button>
+        <button type="button" class="effect-btn effect-5">Link Hover 4</button>
+        <button type="button" class="effect-btn effect-6">Link Hover 5</button>
+    </div>
+    <hr><br>
+    <div>
+        <h2>Image Hover Effects</h2>
+        <p>Some different pictures with different effects. Move the mouse over to see</p>
+        <section class="main-box1">
+            <div class="indivi-box">
+                <a >
+                    <div class="zoomIn">
+                        <img src="images/Pic1.jfif" class="nicolas-pic">
+                    </div>
+                    <p>Zoom Effect</p>
+            </div>
+            </a>
+
+            <div class="indivi-box">
+                <a>
+                    <div class="zoomOut">
+                        <img src="images/Pic2.jfif" class="umut-pic">
+                    </div>
+                    <p>Rotate Effect</p>
+            </div>
+            </a>
+
+            <div class="indivi-box">
+                <a>
+                    <div class="blur">
+                        <img src="images/Pic3.jfif" class="atsu-pic">
+                    </div>
+                    <p>Blur Effect</p>
+            </div>
+            </a>
+
+            <div class="indivi-box">
+                <a class="caption">
+                    <div >
+                        <img src="images/Pic4.jfif" class="ozan-pic">
+                        <div class = "text">
+                            <p>a Turkish Guy</p>
+                        </div>
+                    </div>
+                    <p>Caption Effect</p>
+            </div>
+            </a>
+        </section>
+
+
+    </div>
 </body>
 
 </html>
