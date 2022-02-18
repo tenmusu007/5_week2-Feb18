@@ -1,0 +1,85 @@
+p{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    color: black;
+}
+header{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 5%;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+
+}
+li{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: #E9E9E9;
+}
+
+.indivi-box{
+    width: 50%;
+}
+.main-box1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.atsu-pic,.naomi-pic,.ozan-pic,.gab-pic{
+    width: 300px;
+    margin:0 auto;
+    display: block;
+}
+
+.space{
+    padding: 10%;
+    background-color: #ff010159;
+}
+.space p{
+    padding: 1%;
+    color: black;
+    font-size: 35px;
+}
+.title-css{
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 5%;
+}
+
+.pic-box{
+    display: flex;
+    justify-content: center;
+}
+
+.pic1,.pic2,.pic3{
+    width: 300px;
+}
+.pic2{
+    width: 370px;
+}
+.codepen-box{
+    padding: 0px 15% 0px 15%;
+}
+.sent ul{
+    padding: 30px;
+}
