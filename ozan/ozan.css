@@ -140,3 +140,20 @@
     background-color: #04AA6D;
     color: white;
   }
+
+  .opa {
+    background-color: #4CAF50;
+    padding: 10px;
+  }
+  
+  .opa.first {
+    opacity: 0.1;
+  }
+  
+  .opa.second {
+    opacity: 0.3;
+  }
+  
+  .opa.third {
+    opacity: 0.6;
+  }
