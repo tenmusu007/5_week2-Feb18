@@ -1,11 +1,45 @@
-
+/* 
+header{
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 header{
   padding: 5px;
   margin: 5px;
   display: flex;
   justify-content: space-between;
 }
+.title{
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 5%;
+}
+.title h1{
+  font-size: 36px;
+}
+nav{
+  display: flex;
+  align-items: center;
+}
+nav ul{
+  list-style: none;
+  display: flex;
 
+}
+nav li{
+  padding: 10px;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+nav a:hover{
+  opacity: 0.6;
+}
 hr {
   margin: 50px;
 }
@@ -17,13 +51,15 @@ body {
   max-width: 50em;
   padding: 1em 1em 2em;
   text-align: center;
+  background-color: #d6cbd3;
+  font-family:'Playfair Display', serif;
 }
 
-.title{
+/* .title{
   display: flex;
   align-items: center;
   padding: 0 0 0 5%;
-}
+} */
 
 ul:nth-of-type(1) {
   list-style-type: none;
@@ -33,10 +69,10 @@ ul:nth-of-type(1) {
 li{
   padding: 10px;
 }
-a{
+/* a{
   text-decoration: none;
   color: #1D1F20;
-}
+} */
 
 .box {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
