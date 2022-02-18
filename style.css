@@ -19,7 +19,7 @@ nav{
     display: flex;
     align-items: center;
 }
-ul{
+nav ul{
     list-style: none;
     display: flex;
 
@@ -30,6 +30,9 @@ li{
 a{
     text-decoration: none;
     color: black;
+}
+a:hover{
+    opacity: 0.6;
 }
 .indivi-box{
     width: 50%;
@@ -43,4 +46,7 @@ a{
     width: 300px;
     margin:0 auto;
     display: block;
+}
+.topic ul{
+    padding: 0 190px 0 230px;
 }
