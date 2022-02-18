@@ -7,12 +7,11 @@
 
 .MainHeader__container {
     z-index: 10;
-    width: 110%;
+    width: 102%;
     background-color: darkgray;
-    padding: 25px;
-    margin-top: -8px;
+    padding: 2px;
+    margin-top: -25px;
     margin-left: -8px;
-    position: fixed;
 }
 
 .MainHeader__inner {
@@ -24,6 +23,7 @@
 
 .MainHeader__inner-left > h1{
     letter-spacing: 1px;
+    font-size: 24px;
 }
 
 .MainHeader__inner-right {
@@ -44,3 +44,116 @@
 .MainHeader__inner-right > nav {
     text-decoration: none;
 }
+
+.TopicHeader {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+}
+.space{
+    padding: 3px;
+}
+
+.TopicHeader__container {
+    z-index: 10;
+    background-color: darkgray; 
+    width: 107%;
+    margin-left: -75px;
+}
+.TopicHeader__inner {
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-size: 24px;
+}
+.TopicHeader__inner > ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+.TopicHeader__inner > ul > li {
+    list-style: none;
+    cursor: pointer;
+    padding: 25px;
+}
+
+.Title{
+    text-align: center;
+    display: flex;
+    border-bottom: solid 1px black;
+    font-size: 24px;
+    justify-content: center;
+}
+.ColorEx {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .opa {
+    background-color: #4CAF50;
+    padding: 10px;
+  }
+  
+  .opa.first {
+    opacity: 0.1;
+  }
+  
+  .opa.second {
+    opacity: 0.3;
+  }
+  
+  .opa.third {
+    opacity: 0.6;
+  }

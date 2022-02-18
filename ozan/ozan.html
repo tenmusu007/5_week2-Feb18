@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="ozan.css">
     <title>Ozan TOPIC</title>
 </head>
@@ -26,5 +25,97 @@
             </div>
         </div>
     </header>
+    <div class="TopicHeader">
+        <div class="space"></div>
+        <div class="TopicHeader__container">
+            <div class="TopicHeader__inner">
+                <ul>
+                    <li> <a href="#section1"> COLORS</a></li>
+                    <li><a href="#section2">BUTTONS</a> </li>
+                    <li><a href="#section3">TABLES</a> </li>
+                    <li><a href="#section4">OPACITY</a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="Title" id="section1"> <p>COLORS</p></div>
+    <p style="font-size: 24px;">CSS uses the color values to specify the colors. 
+    Typically, the color property is used to set the background 
+    or font color on the page. You can also use this property for 
+    the border-color and other decorative elements. <br>As the name 
+    suggests, the built-in color name is the collection of defined 
+    colors that are used by using just their names such as 
+    red, green, blue, and so on.</p>
+    <h2>Example</h2>
+    <img src="./Tryit Editor v3.7.png" alt="">
+    <div class="ColorEx">
+    <h1 style="background-color:Tomato;">Tomato</h1>
+    <h1 style="background-color:Orange;">Orange</h1>
+    <h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+    <h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+    <h1 style="background-color:Gray;">Gray</h1>
+    <h1 style="background-color:SlateBlue;">SlateBlue</h1>
+    <h1 style="background-color:Violet;">Violet</h1>
+    <h1 style="background-color:LightGray;">LightGray</h1>
+    </div>
+    <div class="Title" id="section2"> <p>BUTTONS</p></div>
+    <p style="font-size: 24px;">HTML creates buttons but CSS styles them. <br>
+    CSS buttons can differ in size, color, style, etc. 
+    CSS buttons often are with input fields for users to 
+    submit information.</p>
+    <h2>Basic Buttons</h2>
+    <img src="./image.png" alt=""> <br>
+    <button>Default Button</button>
+    <button class="button">Basic Css Button</button>
+    <h2>HOVERABLE BUTTONS</h2>
+    <P style="font-size: 24px;">Use the :hover selector to change the style of a 
+        button when you move the mouse over it.</P>
+        <img src="./image2.png" alt=""> <br>
+        <button class="button button1">Green</button>
+    <div class="Title" id="section3"> <P>TABLES</P></div>
+    <p style="font-size: 24px;">This tutorial will teach you how to set different properties of an HTML table using CSS. You can set following properties of a table − <br>
+
+        The border-collapse specifies whether the browser should control the appearance of the adjacent borders that touch each other or whether each cell should maintain its style. <br>
+        
+        The border-spacing specifies the width that should appear between table cells. <br>
+        
+        The caption-side captions are presented in the <caption> element. By default, these are rendered above the table in the document. You use the caption-side property to control the placement of the table caption. <br>
+        
+        The empty-cells specifies whether the border should be shown if a cell is empty. <br>
+        
+        The table-layout allows browsers to speed up layout of a table by using the first width properties it comes across for the rest of a column rather than having to load the whole table before rendering it.</p>
+
+        <h2>Example</h2>
+        <img src="./image3.png" alt="">
+        <table id="customers">
+            <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <td>Berglunds snabbköp</td>
+              <td>Christina Berglund</td>
+              <td>Sweden</td>
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+        </table>   <br> 
+        <div class="Title" id="section4">OPACITY </div>
+        <p style="font-size: 24px;">The opacity CSS property sets the opacity of an element. Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency. </p>
+        <h2>Example</h2>  
+        <img src="./image4.png" alt=""> 
+        <div class="opa first"><p>opacity 0.1</p></div>
+        <div class="opa second"><p>opacity 0.3</p></div>
+        <div class="opa third"><p>opacity 0.6</p></div>
+        <div class="opa"><p>opacity 1 (default)</p></div>                       
 </body>
 </html>
